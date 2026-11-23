@@ -1,0 +1,306 @@
+{
+ "format": "nfi-modelle-1",
+ "s0": 0.1239,
+ "netze": {
+  "A": {
+   "beschreibung": "Zeigernetz, rohe Koordinaten als Eingabe, bei n = 20 gleichverteilt trainiert (Kopie aus rechnen-beim-einsatz-demo, Rezept von zeigernetz-demo)",
+   "dateien": [
+    {
+     "datei": "nfi_A_s0.npz",
+     "bytes": 98476,
+     "sha256": "f91c37797ca9e2c1c68f95b57a566dae7ff9caecad87cc9a3900da7f00c01282",
+     "zufalls_seed": 0,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": null
+    },
+    {
+     "datei": "nfi_A_s1.npz",
+     "bytes": 98459,
+     "sha256": "819985f4aa671568349af942ab6d70d4daa7a7248647e68a611e78369c0daaef",
+     "zufalls_seed": 1,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": null
+    },
+    {
+     "datei": "nfi_A_s2.npz",
+     "bytes": 98463,
+     "sha256": "04eaad690703214fa76a2d6fd47b5fb09eafe187a1188b8074ee2feefdff3cf4",
+     "zufalls_seed": 2,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": null
+    },
+    {
+     "datei": "nfi_A_s3.npz",
+     "bytes": 98451,
+     "sha256": "ab569df7e143b087ce8390671bb048aad65ee8441e4320306f3b0dbe3a0b05f9",
+     "zufalls_seed": 3,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": null
+    },
+    {
+     "datei": "nfi_A_s4.npz",
+     "bytes": 98460,
+     "sha256": "a7ffb12c9439032f49a488e606b316dfaf1a9400592d78e449c381e02e0f2678",
+     "zufalls_seed": 4,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": null
+    }
+   ]
+  },
+  "An": {
+   "beschreibung": "Zeigernetz, Eingabe auch im Training auf das Einheitsquadrat normiert (gleiche Gewichts- und Daten-Zufalls-Seeds wie A)",
+   "dateien": [
+    {
+     "datei": "nfi_An_s0.npz",
+     "bytes": 98520,
+     "sha256": "6745c260b14fc99eb916faeaa89f904aa52d46d6a84e292b6ca25b8488b6ee28",
+     "zufalls_seed": 0,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -5.239281194636674
+    },
+    {
+     "datei": "nfi_An_s1.npz",
+     "bytes": 98539,
+     "sha256": "9515f1520ae985d80b7898df75344bea266b7033f252659cd548e83d63e6a21e",
+     "zufalls_seed": 1,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -6.465319866692259
+    },
+    {
+     "datei": "nfi_An_s2.npz",
+     "bytes": 98516,
+     "sha256": "acb758054c12024a189c586988e11c852a3bea9ab5a9b4b09bf5c7382b8f91a3",
+     "zufalls_seed": 2,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -5.707351940148234
+    },
+    {
+     "datei": "nfi_An_s3.npz",
+     "bytes": 98524,
+     "sha256": "6a74f4a205b0e9d930b94b141d084964981e2e010b42e24edd54b348b158af15",
+     "zufalls_seed": 3,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -6.226762987738345
+    },
+    {
+     "datei": "nfi_An_s4.npz",
+     "bytes": 98488,
+     "sha256": "fc180f9229409035ab4e5cab73d3a327de4a06ad749199b38e9b9974b6c98fde",
+     "zufalls_seed": 4,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -6.211789660659275
+    }
+   ]
+  },
+  "Aaug": {
+   "beschreibung": "Zeigernetz, rohe Eingabe, im Training je Instanz skaliert (Faktor 0,1 bis 10, logarithmisch gleichverteilt) und verschoben (-3 bis 3)",
+   "dateien": [
+    {
+     "datei": "nfi_Aaug_s0.npz",
+     "bytes": 98513,
+     "sha256": "b49097e5c60c5dd4ff7ea30155a566d04d88474f32ca455ccc4f0783d01bf1d3",
+     "zufalls_seed": 0,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": 10.734541648597526
+    },
+    {
+     "datei": "nfi_Aaug_s1.npz",
+     "bytes": 98537,
+     "sha256": "7d076ed2992fb6b568572c56e41491fa4751c7b5379c010876d878ede40877c3",
+     "zufalls_seed": 1,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": 8.063565004083607
+    },
+    {
+     "datei": "nfi_Aaug_s2.npz",
+     "bytes": 98545,
+     "sha256": "01b79ea7f437ffc08b68bdae37a1c8d8d4fe01891169a2bc84d7aae9d7567f6d",
+     "zufalls_seed": 2,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": 8.5004872216825
+    },
+    {
+     "datei": "nfi_Aaug_s3.npz",
+     "bytes": 98504,
+     "sha256": "614a6aa9c2d73fe7744a8963885e1e15df950c1f3ad7ba0ee051ecc990e471b1",
+     "zufalls_seed": 3,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": 130.91440337740758
+    },
+    {
+     "datei": "nfi_Aaug_s4.npz",
+     "bytes": 98506,
+     "sha256": "432832bec3934c1228d27ecc4c956fc2f511dba0149a21a4339cec40fb1b4a24",
+     "zufalls_seed": 4,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": 111.66777178529514
+    }
+   ]
+  },
+  "Amix": {
+   "beschreibung": "Zeigernetz, normierte Eingabe, im Training je Schritt n = 10, 20 oder 50",
+   "dateien": [
+    {
+     "datei": "nfi_Amix_s0.npz",
+     "bytes": 98520,
+     "sha256": "3edc888a60a7a4bf37e4b7dba8a88729c1c4904b20ebabb3f9e4e51c532d3eb2",
+     "zufalls_seed": 0,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -5.48259146323578
+    },
+    {
+     "datei": "nfi_Amix_s1.npz",
+     "bytes": 98537,
+     "sha256": "a9db42b520d6820dd1d72d6d83e0ea9033985d53ccc86bd0874516b04f547c66",
+     "zufalls_seed": 1,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -6.2054657168722125
+    },
+    {
+     "datei": "nfi_Amix_s2.npz",
+     "bytes": 98554,
+     "sha256": "c83123a7c2eea706b70800ec01d9f1587a773ccad32b1e6f06b39ec95c5491e5",
+     "zufalls_seed": 2,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -5.034425520912233
+    },
+    {
+     "datei": "nfi_Amix_s3.npz",
+     "bytes": 98544,
+     "sha256": "0ce3424d45e970731a0d369930a61a6e528772a6ceae5d1142b8b396eec9f17c",
+     "zufalls_seed": 3,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -5.173823279026282
+    },
+    {
+     "datei": "nfi_Amix_s4.npz",
+     "bytes": 98548,
+     "sha256": "f2d9ef8db2cfdf54500427c5ce45dafbd015727ab4355b351353d357aa33a1c9",
+     "zufalls_seed": 4,
+     "schritte": 8000,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -5.500362364157531
+    }
+   ]
+  },
+  "Bmit": {
+   "beschreibung": "Merkmalsnetz K mit der Skala s der Instanz (Kopie aus zugwahl-lernen-demo)",
+   "dateien": [
+    {
+     "datei": "nfi_Bmit_s0.npz",
+     "bytes": 4098,
+     "sha256": "f0596b3d3573c17e02f5d5f94b3c75c912d15273ee6e89d67ecda3df93c4ab2f",
+     "zufalls_seed": 0,
+     "schritte": 3750,
+     "touren": 960000,
+     "val_unterschied_zu_nn": null
+    },
+    {
+     "datei": "nfi_Bmit_s1.npz",
+     "bytes": 4103,
+     "sha256": "4036f090e75bffb70a82e67c57d961a5d92fa098604abf70935c5345a024a4e4",
+     "zufalls_seed": 1,
+     "schritte": 3750,
+     "touren": 960000,
+     "val_unterschied_zu_nn": null
+    },
+    {
+     "datei": "nfi_Bmit_s2.npz",
+     "bytes": 4106,
+     "sha256": "7f818ae5ef1fa604c73e2e4e61a078f84702e593b38a2c3b3592aad32ce5ae14",
+     "zufalls_seed": 2,
+     "schritte": 3750,
+     "touren": 960000,
+     "val_unterschied_zu_nn": null
+    },
+    {
+     "datei": "nfi_Bmit_s3.npz",
+     "bytes": 4101,
+     "sha256": "3006999a853d0487d47e146eb0d1c8aa4340994030192191e5d20bedadccca07",
+     "zufalls_seed": 3,
+     "schritte": 3750,
+     "touren": 960000,
+     "val_unterschied_zu_nn": null
+    },
+    {
+     "datei": "nfi_Bmit_s4.npz",
+     "bytes": 4102,
+     "sha256": "3c7552e811099ab509e387b2df951a32c660a03d1c4497a9a75bf40789e54890",
+     "zufalls_seed": 4,
+     "schritte": 3750,
+     "touren": 960000,
+     "val_unterschied_zu_nn": null
+    }
+   ]
+  },
+  "Bohne": {
+   "beschreibung": "Merkmalsnetz K mit der festen Skala s0 (gleiche Ströme und Gewichts-Zufalls-Seeds wie Bmit)",
+   "dateien": [
+    {
+     "datei": "nfi_Bohne_s0.npz",
+     "bytes": 4497,
+     "sha256": "0ae6b0feb6bf1bce26280772f6d53161bad6ca7df2cbb228bbca4ecb34bbc665",
+     "zufalls_seed": 0,
+     "schritte": 3750,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -7.82068783093977
+    },
+    {
+     "datei": "nfi_Bohne_s1.npz",
+     "bytes": 4493,
+     "sha256": "b8aa183bc5080ed05405f0c85372a945020fa7052671b8cddd824f2b34870049",
+     "zufalls_seed": 1,
+     "schritte": 3750,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -7.288783834768724
+    },
+    {
+     "datei": "nfi_Bohne_s2.npz",
+     "bytes": 4505,
+     "sha256": "a58b9c6ecbb5b9da9915d7ab0477cefd8528629b1971b14508b5277df51bf6bd",
+     "zufalls_seed": 2,
+     "schritte": 3750,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -7.218533574520411
+    },
+    {
+     "datei": "nfi_Bohne_s3.npz",
+     "bytes": 4502,
+     "sha256": "9dc17c5d1bfdb31459802b7d8832ba509381d5441cd340136709d07ac9c40cb7",
+     "zufalls_seed": 3,
+     "schritte": 3750,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -8.391784548285251
+    },
+    {
+     "datei": "nfi_Bohne_s4.npz",
+     "bytes": 4504,
+     "sha256": "9eb11035d0f130fdd54d12210613aba125ea69a378b1d1f85c1318b8078d76b4",
+     "zufalls_seed": 4,
+     "schritte": 3750,
+     "touren": 960000,
+     "val_unterschied_zu_nn": -7.7873584319115
+    }
+   ]
+  }
+ }
+}

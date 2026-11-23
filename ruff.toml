@@ -1,0 +1,10 @@
+target-version = "py312"
+extend-exclude = ["tools/_zwischen"]
+
+[lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[lint.per-file-ignores]
+# Kopie: die Ersetzung des Präfixes (zwl_instances -> nfi_instances, zwl_ -> nfik_) ändert die Sortierung der Importe; Kopien bleiben Byte für Byte gleich
+"nfik_policy.py" = ["I001"]
